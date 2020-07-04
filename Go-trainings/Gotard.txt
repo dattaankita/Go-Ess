@@ -1,0 +1,12 @@
+dynamic size go routine
+threads are of fixed size
+go routine stack size is not fixed(kb-mb)
+woks faster
+when 1 OS thread created , go routine stack moves to thar OS thread .
+go routines communicate using channels
+for race condition:
+If there is many goroutines to excute and access 1 resource
+they put to gochannels
+if 1 gochannel excuted it stored into queue by using buffer channel
+2nd    "        "       "   "     "    "  
+...

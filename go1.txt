@@ -1,0 +1,31 @@
+go tool pprof http://localhost:3000/debug/pprof/heap
+
+http://localhost:3000/debug/pprof/profile
+
+https://medium.com/free-code-camp/how-i-investigated-memory-leaks-in-go-using-pprof-on-a-large-codebase-4bec4325e192
+
+Profiling a Go program
+https://golang.org/pkg/runtime/pprof/
+
+how to open .pb file?
+
+to install
+go get golang.org/x/net/websocket
+
+to test
+go test
+
+//testing-vervose-coverage
+go test -v -cover
+//report
+go test -coverfile=cover.txt
+//to conver text file in to cover.html file
+go tool cover -html=cover.txt -o cover.html
+
+gomod initibm.com/hello
+
+
+go list -m 
+go list -m all
+
+dependencies will show module  and modules module
